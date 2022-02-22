@@ -41,7 +41,7 @@ fi
 
 # Fix source directory permissions
 fix-permissions ./
-
+#cp /tmp/src/*.html  ./
 #echo "This is again customization ---- cprakash " > ./info.html
 
 #cp  -Rf /tmp/src/*.html  ./		
@@ -49,3 +49,4 @@ DATE=$(date "+%F")
 echo "---> Creating info file"
 echo "${DATE} text given in question" >> ./info.html
 #
+
